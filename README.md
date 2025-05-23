@@ -60,7 +60,3 @@ Include road quality prediction module
 
 🧑‍💻 Author
 Krish @sam-2707
-
-
-📃 License
-This project is licensed under the MIT License.
