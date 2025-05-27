@@ -114,10 +114,10 @@ test_labels = np.array(test_labels)
 
 # Evaluate model
 if len(test_images) > 0:
-    model = load_model('/kaggle/working/final_model.h5')
+    model = load_model('final_model.h5')
     test_loss, test_accuracy = model.evaluate(test_images, test_labels)
     print(f"Test Loss: {test_loss:.4f}")
-    print(f"Test Accuracy: {test_accuracy:.4f}")
+    print(f"Test Accuracy: {test_accuracys:.4f}")
 
     predictions = model.predict(test_images)
     predicted_classes = (predictions > 0.5).astype(int)
