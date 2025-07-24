@@ -1,0 +1,9 @@
+
+train: D:\Projects\Python\DS\Dataset\pothole_yolo_dataset\images\train
+val: D:\Projects\Python\DS\Dataset\pothole_yolo_dataset\images\val
+
+# Number of classes
+nc: 1
+
+# Class names
+names: ['pothole']

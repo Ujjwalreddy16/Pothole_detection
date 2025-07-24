@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['pothole']
+
+roboflow:
+  workspace: aegis
+  project: pothole-detection-i00zy
+  version: 10
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/aegis/pothole-detection-i00zy/dataset/10
