@@ -1,0 +1,29 @@
+# Define the calculator function
+def calculator():
+    # Get user input for the first number
+    num1 = float(input("Enter the first number: "))
+    
+    # Get user input for the operator
+    operator = input("Enter an operator (+, -, *, /): ")
+    
+    # Get user input for the second number
+    num2 = float(input("Enter the second number: "))
+    
+    # Perform the calculation based on the operator
+    if operator == '+':
+        result = num1 + num2
+    elif operator == '-':
+        result = num1 - num2
+    elif operator == '*':
+        result = num1 * num2
+    elif operator == '/':
+        result = num1 / num2
+    else:
+        print("Invalid operator.")
+        return
+    
+    # Print the result
+    print("Result: ", result)
+
+# Call the calculator function
+calculator()
