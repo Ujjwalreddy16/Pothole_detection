@@ -59,4 +59,5 @@ Include road quality prediction module
 
 
 🧑‍💻 Author
-Krish @sam-2707
+K Ujjwal Reddy @Ujjwalreddy16
+
